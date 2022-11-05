@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>payment</name>
+    </assembly>
+    <members>
+        <member name="M:payment.Controllers.WalletsController.GetAllWallets">
+            <summary>
+            This Method get the List of all the Registered Wallets.
+            </summary>
+            <returns>List of Wallets as JSON</returns>
+            <response code="200">OK</response>
+        </member>
+        <member name="M:payment.Controllers.WalletsController.GetWalletByUserId(System.String)">
+            <summary>
+             Get A single Wallet from the Database, based on the given UserId.
+            </summary>
+            <returns> A Single Wallet as JSON</returns>
+        </member>
+    </members>
+</doc>
